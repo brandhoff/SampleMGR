@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>2529</width>
+    <height>1625</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(35, 35, 35);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btnOpenLib">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>1340</y>
+      <width>311</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{background-color:rgba(95, 171, 48);
+color: rgb(255,255,255);
+border-radius: 15px;}</string>
+    </property>
+    <property name="text">
+     <string>Open Libary</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>160</y>
+      <width>1751</width>
+      <height>1111</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>TEST</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Cambria</family>
+       <pointsize>26</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="background">
+      <brush brushstyle="NoBrush">
+       <color alpha="255">
+        <red>95</red>
+        <green>171</green>
+        <blue>48</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foreground">
+      <brush brushstyle="NoBrush">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="btnOpenSample">
+    <property name="geometry">
+     <rect>
+      <x>1830</x>
+      <y>170</y>
+      <width>311</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{background-color:rgba(95, 171, 48);
+color: rgb(255,255,255);
+border-radius: 15px;}</string>
+    </property>
+    <property name="text">
+     <string>Open Sample</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnShowAll">
+    <property name="geometry">
+     <rect>
+      <x>1830</x>
+      <y>290</y>
+      <width>311</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{background-color:rgba(95, 171, 48);
+color: rgb(255,255,255);
+border-radius: 15px;}</string>
+    </property>
+    <property name="text">
+     <string>Show All Graphs</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnOpenFolder">
+    <property name="geometry">
+     <rect>
+      <x>1830</x>
+      <y>410</y>
+      <width>311</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{background-color:rgba(95, 171, 48);
+color: rgb(255,255,255);
+border-radius: 15px;}</string>
+    </property>
+    <property name="text">
+     <string>Open Folder</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnCreateSample">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>1340</y>
+      <width>311</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{background-color:rgba(3, 99, 3);
+color: rgb(255,255,255);
+border-radius: 15px;}
+	</string>
+    </property>
+    <property name="text">
+     <string>Create Sample</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnCreateLib">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>1460</y>
+      <width>311</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{background-color:rgba(3, 99, 3);
+color: rgb(255,255,255);
+border-radius: 15px;}
+	</string>
+    </property>
+    <property name="text">
+     <string>Create Libary</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelHead">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>40</y>
+      <width>671</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(95, 171, 48);
+font: 32pt &quot;Cambria&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Samples</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnAddMeasurement">
+    <property name="geometry">
+     <rect>
+      <x>1830</x>
+      <y>600</y>
+      <width>311</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{background-color:rgba(3, 99, 3);
+color: rgb(255,255,255);
+border-radius: 15px;}
+	</string>
+    </property>
+    <property name="text">
+     <string>Add Measurement</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnSaveLib">
+    <property name="geometry">
+     <rect>
+      <x>2200</x>
+      <y>1450</y>
+      <width>311</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{background-color:rgba(95, 171, 48);
+color: rgb(255,255,255);
+border-radius: 15px;}</string>
+    </property>
+    <property name="text">
+     <string>Save to disk</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>2529</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
