@@ -4,7 +4,7 @@ Created on Wed Mar 30 20:07:27 2022
 
 @author: Jonas
 """
-
+import json
 class Sample:
     def __init__(self, name, SystemListe = None):
         self.name = name
@@ -24,4 +24,6 @@ class Sample:
         
         dumpDic = {'name': self.name,
                    'measurements': measureDumpArray}
-        return dumpDic
+        
+        json_string = json.dumps(dumpDic)
+        return json_string

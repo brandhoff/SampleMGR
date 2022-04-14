@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1139</width>
-    <height>398</height>
+    <width>1011</width>
+    <height>312</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,7 +19,7 @@
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>50</x>
+     <x>30</x>
      <y>10</y>
      <width>361</width>
      <height>81</height>
@@ -36,15 +36,24 @@ font: 32pt &quot;Cambria&quot;;</string>
   <widget class="QPlainTextEdit" name="textEditSampleName">
    <property name="geometry">
     <rect>
-     <x>420</x>
-     <y>140</y>
-     <width>651</width>
-     <height>91</height>
+     <x>210</x>
+     <y>100</y>
+     <width>791</width>
+     <height>81</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Cambria</family>
+     <pointsize>24</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
    </property>
    <property name="styleSheet">
     <string notr="true">color: rgb(95, 171, 48);
-font: 32pt &quot;Cambria&quot;;</string>
+font: 24pt &quot;Cambria&quot;;</string>
    </property>
    <property name="plainText">
     <string/>
@@ -53,9 +62,9 @@ font: 32pt &quot;Cambria&quot;;</string>
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>40</x>
-     <y>140</y>
-     <width>361</width>
+     <x>30</x>
+     <y>100</y>
+     <width>171</width>
      <height>81</height>
     </rect>
    </property>
@@ -70,10 +79,10 @@ font: 24pt &quot;Cambria&quot;;</string>
   <widget class="QPushButton" name="btnFinish">
    <property name="geometry">
     <rect>
-     <x>40</x>
-     <y>270</y>
-     <width>111</width>
-     <height>111</height>
+     <x>30</x>
+     <y>210</y>
+     <width>80</width>
+     <height>80</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -82,26 +91,46 @@ color: rgb(255,255,255);
 border-radius: 15px;}</string>
    </property>
    <property name="text">
-    <string>Finish</string>
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>icons-1.8.1/icons/check2.svg</normaloff>icons-1.8.1/icons/check2.svg</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>64</width>
+     <height>64</height>
+    </size>
    </property>
   </widget>
   <widget class="QPushButton" name="btnAbort">
    <property name="geometry">
     <rect>
-     <x>960</x>
-     <y>260</y>
-     <width>111</width>
-     <height>111</height>
+     <x>130</x>
+     <y>210</y>
+     <width>80</width>
+     <height>80</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">QPushButton{background-color:rgba(3, 99, 3);
+    <string notr="true">QPushButton{background-color:rgba(250, 30, 30);
 color: rgb(255,255,255);
 border-radius: 15px;}
 	</string>
    </property>
    <property name="text">
-    <string>Abort</string>
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>icons-1.8.1/icons/x-square.svg</normaloff>icons-1.8.1/icons/x-square.svg</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>64</width>
+     <height>64</height>
+    </size>
    </property>
   </widget>
  </widget>

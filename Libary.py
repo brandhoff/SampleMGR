@@ -20,8 +20,9 @@ class Libary:
             Samples.remove(sample)
         
     def readFromFile(self, file):
-        print(file)
-        
+        with open(file) as json_file:
+            data = json.load(json_file)
+            return data
         
     def writeToFile(self, file):
         
@@ -33,4 +34,6 @@ class Libary:
         dumpDic = {'name': self.name,
                    'Samples': sampleDumpArr}
         
-        print(dumpDic)
+        json_string = json.dumps(dumpDic)
+        with open('json_data.json', 'w') as outfile:
+            outfile.write(json_string)

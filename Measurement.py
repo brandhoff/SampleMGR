@@ -4,7 +4,7 @@ Created on Wed Mar 30 20:07:40 2022
 
 @author: Jonas
 """
-
+import json
 class Measurement:
     def __init__(self, art, author, datum, GraphFiles, RawFiles):
         self.art = art
@@ -26,5 +26,6 @@ class Measurement:
             'datum': self.datum,
             'GraphFiles': self.GraphFiles,
             'RawFiles': self.RawFiles}
-        
-        return dumpDic
+        json_string = json.dumps(dumpDic)
+
+        return json_string

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1438</width>
-    <height>869</height>
+    <width>914</width>
+    <height>499</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -36,10 +36,10 @@ font: 32pt &quot;Cambria&quot;;</string>
   <widget class="QPlainTextEdit" name="textEditMsrType">
    <property name="geometry">
     <rect>
-     <x>350</x>
-     <y>90</y>
+     <x>236</x>
+     <y>100</y>
      <width>651</width>
-     <height>91</height>
+     <height>80</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -53,10 +53,10 @@ font: 32pt &quot;Cambria&quot;;</string>
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>10</x>
+     <x>116</x>
      <y>100</y>
-     <width>331</width>
-     <height>81</height>
+     <width>80</width>
+     <height>80</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -70,10 +70,10 @@ font: 24pt &quot;Cambria&quot;;</string>
   <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
-     <x>10</x>
+     <x>116</x>
      <y>190</y>
-     <width>331</width>
-     <height>81</height>
+     <width>101</width>
+     <height>80</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -87,10 +87,10 @@ font: 24pt &quot;Cambria&quot;;</string>
   <widget class="QPlainTextEdit" name="textEditMsrAuthor">
    <property name="geometry">
     <rect>
-     <x>350</x>
+     <x>236</x>
      <y>190</y>
      <width>651</width>
-     <height>91</height>
+     <height>80</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -104,10 +104,10 @@ font: 32pt &quot;Cambria&quot;;</string>
   <widget class="QLabel" name="label_4">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>280</y>
-     <width>331</width>
-     <height>81</height>
+     <x>116</x>
+     <y>290</y>
+     <width>71</width>
+     <height>80</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -121,10 +121,10 @@ font: 24pt &quot;Cambria&quot;;</string>
   <widget class="QDateEdit" name="dateEdit">
    <property name="geometry">
     <rect>
-     <x>350</x>
+     <x>236</x>
      <y>290</y>
      <width>651</width>
-     <height>81</height>
+     <height>80</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -136,9 +136,9 @@ font: 24pt &quot;Cambria&quot;;</string>
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>740</y>
-     <width>111</width>
-     <height>111</height>
+     <y>390</y>
+     <width>80</width>
+     <height>80</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -147,35 +147,55 @@ color: rgb(255,255,255);
 border-radius: 15px;}</string>
    </property>
    <property name="text">
-    <string>Finish</string>
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>icons-1.8.1/icons/check2.svg</normaloff>icons-1.8.1/icons/check2.svg</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>64</width>
+     <height>64</height>
+    </size>
    </property>
   </widget>
   <widget class="QPushButton" name="btnAbort">
    <property name="geometry">
     <rect>
-     <x>1310</x>
-     <y>740</y>
-     <width>111</width>
-     <height>111</height>
+     <x>110</x>
+     <y>390</y>
+     <width>80</width>
+     <height>80</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">QPushButton{background-color:rgba(3, 99, 3);
+    <string notr="true">QPushButton{background-color:rgba(250, 30, 30);
 color: rgb(255,255,255);
 border-radius: 15px;}
 	</string>
    </property>
    <property name="text">
-    <string>Abort</string>
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>icons-1.8.1/icons/x-square.svg</normaloff>icons-1.8.1/icons/x-square.svg</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>64</width>
+     <height>64</height>
+    </size>
    </property>
   </widget>
   <widget class="QPushButton" name="btnaddGraphs">
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>380</y>
-     <width>261</width>
-     <height>81</height>
+     <y>190</y>
+     <width>80</width>
+     <height>80</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -184,16 +204,26 @@ color: rgb(255,255,255);
 border-radius: 15px;}</string>
    </property>
    <property name="text">
-    <string>Add Graphs</string>
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>icons-1.8.1/icons/graph-down.svg</normaloff>icons-1.8.1/icons/graph-down.svg</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>64</width>
+     <height>64</height>
+    </size>
    </property>
   </widget>
   <widget class="QPushButton" name="btnAddRaw">
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>470</y>
-     <width>261</width>
-     <height>81</height>
+     <y>290</y>
+     <width>80</width>
+     <height>80</height>
     </rect>
    </property>
    <property name="styleSheet">
